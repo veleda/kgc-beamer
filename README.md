@@ -5,6 +5,20 @@ Beamer template for Knowledge Graph Conference (work in progress)
 
 Made for fun by Veronika Heimsbakk, veronika.heim@gmail.com
 
+## Important notes upon using
+The `documentclass` shall be set to `kgc` with `kgc.cls` in the same folder as your `.tex`-file. 
+
+Set the variables `\title` and `\author`, as these are used for other commands in this template.
+
+All frames using the `code`-environment shall be set as fragile. 
+```
+\begin{frame}[fragile]
+  \begin{code}
+    ...your code snippet goes here...
+  \end{code}
+\end{frame}
+```
+
 
 ## Commands
 ### `\tp{text}`
