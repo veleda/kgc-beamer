@@ -12,7 +12,6 @@
 \RequirePackage{tikz}
 \RequirePackage{color}
 \RequirePackage[utf8]{inputenc}
-\RequirePackage{fancyvrb}
 \RequirePackage{tcolorbox}
 \RequirePackage{fontawesome}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{beamer}}
@@ -21,8 +20,6 @@
 
 \RequirePackage[familydefault,regular]{Chivo}
 \RequirePackage[T1]{fontenc}
-\definecolor{capblue}{RGB}{0, 112, 173}
-\definecolor{capbluelight}{RGB}{18, 171, 219}
 
 \definecolor{kgcorgange}{RGB}{244, 128, 32}
 \definecolor{kgcyellow}{RGB}{255, 201, 61}
